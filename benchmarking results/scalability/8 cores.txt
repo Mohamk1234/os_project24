@@ -1,0 +1,16 @@
+#------------------------------------------------------------------
+# test    alloc   time  rss    user  sys  page-faults page-reclaims
+
+cache-thrashN je    00.23 11456 1.35 0.00 0 267
+cache-thrashN tc    00.26 8788 1.43 0.00 0 945
+cache-thrashN lf    00.26 5128 1.37 0.00 0 568
+cache-thrashN mi    00.27 7912 1.49 0.00 0 248
+cache-thrashN sn    00.20 3920 1.36 0.00 0 278
+cache-thrashN hd    00.20 3984 1.25 0.00 0 324
+
+cache-scratchN je    00.26 11404 1.47 0.00 0 269
+cache-scratchN tc    00.26 13908 1.54 0.00 0 788
+cache-scratchN lf    00.26 4996 1.41 0.00 0 571
+cache-scratchN mi    00.26 8148 1.39 0.00 0 253
+cache-scratchN sn    00.23 3908 1.35 0.00 0 291
+cache-scratchN hd    00.22 4132 1.32 0.00 0 327
